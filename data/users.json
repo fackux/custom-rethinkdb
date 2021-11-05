@@ -1,0 +1,20 @@
+[
+    {
+        "alias": "flopez",
+        "names": [
+            "Facundo",
+            "Nicolas"
+        ],
+        "lastName": "Lopez",
+        "dni": 33529174
+    },
+    {
+        "alias": "cari",
+        "names": [
+            "Carina",
+            "Alejandra"
+        ],
+        "lastName": "Griffiths",
+        "dni": 37150628
+    }
+]
