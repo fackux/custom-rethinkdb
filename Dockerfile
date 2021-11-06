@@ -8,4 +8,6 @@ RUN echo "deb https://download.rethinkdb.com/repository/ubuntu-focal focal main"
 RUN wget -qO- https://download.rethinkdb.com/repository/raw/pubkey.gpg | apt-key add -
 RUN apt-get update
 RUN apt-get install rethinkdb -y
-CMD ["rethinkdb", "--initial-password", "jep666A", "--bind", "all"]
+#RUN wget -qO- https://deb.nodesource.com/setup_14.x | sh
+#RUN apt-get install -y nodejs
+CMD ["rethinkdb", "--initial-password", "jep666A", "--bind", "all", "-n", "RethinkDB-Custom"]
